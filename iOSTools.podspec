@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/DevFatani/iOSTools.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
 
-  s.source_files  = 'iOSTools/Classes/**/*'
+  s.source_files  = 'Src/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
       "ios": "10.0"
