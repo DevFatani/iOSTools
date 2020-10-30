@@ -7,12 +7,14 @@
 //
 
 import UIKit
-
+import iOSTools
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let sum = Tools.calcSum(5, 10)
+        print("sum: \(sum)")
+        print(Tools.getMessage())
     }
 
     override func didReceiveMemoryWarning() {
